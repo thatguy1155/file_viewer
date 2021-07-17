@@ -1,0 +1,65 @@
+가져온 라이브러리 / 프레임 워크 : React ---> redux, react-redux, redux-thunk Python -----> Flask, flask_cORS
+
+
+기본 개념 :
+React GUI가 있고 사용자가이를 조작하면 API 명령이 Flask 백엔드에 전송되고 os 명령을 실행하여 실제로 파일 트리를 업데이트합니다. 모든 교환 후 Flask는 관련 디렉터리에있는 모든 항목을 반환합니다. 이들은 UI 상태에 관련된 다른 모든 정보와 함께 Redux에 저장됩니다.
+
+
+
+사용법 :
+
+Windows 또는 Mac 파일 탐색기처럼 디렉토리를 클릭하여 거기에 이동합니다. 또한 이러한 탐색기와 마찬가지로 동일한 방식으로 작동 뒤로 및 앞으로 단추가 있습니다. 파일 또는 디렉토리 추가, 파일 삭제, 파일 이동, 이름 편집, syslinks 작성은 모든 상단의 버튼 (왼쪽에서 오른쪽으로 추가, 삭제, 링크, 이동, 편집)을 눌러 있습니다. 이러한 우상의 링크 중 하나를 클릭하면 팝업이 표시됩니다. 여기에서 이름 추가 대상 디렉토리의 선택 등을 수행합니다.
+
+주의해야 할 점이 두 가지 있습니다. 하나는 심볼릭 링크를 제거하려면 링크 아이콘을 클릭하고 삭제하는 것입니다. 다른 하나는 쓰기 권한이없는 디렉토리에서 프로그램이 작업을 수행 할 수없는 것입니다.
+
+
+
+설치 :
+
+1) https://www.python.org/downloads/에서 최신 버전의 python을 구하십시오.
+2) 터미널에서 file_backend로 이동합니다
+3) 실행 : pip install -U 플라스크 _cors
+4) 실행 : python app.py
+5) https://nodejs.org/에서 노드가 있는지 확인합니다
+6) 터미널에서 file_frontend로 이동합니다
+7) 실행 : npm i
+8) 실행 : npm run start
+
+이렇게하면 응용 프로그램이 시스템의 로컬에서 실행됩니다.
+
+
+
+
+Imported libraries/frameworks: React ---> redux,react-redux,redux-thunk  Python -----> Flask,flask_cORS
+
+
+Basic idea: 
+There's a GUI in React, when users interact with it, it sends api calls to a Flask backend, that runs os commands to actually update the file tree. After every interaction Flask returns all the items in the relevant directory. These are then stored in Redux along with all the other info relating to the UI states.
+
+
+
+How to use: 
+
+Like a file explorer on windows or Mac, you click on a directory to enter it. Also like those explorers, you have a back and forward button that operates the same way. Adding files or directories, removing files, moving files, editing names and creating syslinks are all possible by pressing the buttons on the top-tight (add,delete,link,move,edit from left to right). When you click on one of those top-right links a popup will appear where you will add.edit names, select target directories etc.,
+
+There are two things worth noting. One is that in order to remove a symlink, click on the link icon and then delete. Another is that the program won't let you perform actions in directories where you don't have writing privileges.
+
+
+Setup:
+
+1)make sure you have the latest version of python from https://www.python.org/downloads/
+2)navigate to file_backend in terminal
+3) run: pip install -U flask_cors
+4) run: python app.py
+5)make sure you have node from https://nodejs.org/
+6) navigate to file_frontend in terminal
+7) run: npm i  
+8) run: npm run start
+
+This should get the application running locally on your machine
+
+
+
+
+
+
